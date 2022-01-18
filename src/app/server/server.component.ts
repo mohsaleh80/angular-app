@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class ServerComponent {
   title = 'Hello to server';
+  serverName = 'Main Server';
+
+  getServerName() {
+    return this.serverName;
+  }
 }
